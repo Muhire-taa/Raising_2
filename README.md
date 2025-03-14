@@ -2,7 +2,9 @@ This project implements a machine learning system to predict households at risk 
 Project Structure
 
 raising/
- # Data storage directory
-│   └── interview_data*.csv    # Uploaded data files
- # Model storage directory
-│   ├── risk_model_*.joblib  # Trained models
+└── interview_data*.csv    # Uploaded data files
+ ├── risk_model_*.joblib  # Trained model
+ |___model_pipeline .py
+ |__production.py
+ |__raising.ipynb
+ |__retrain.py
